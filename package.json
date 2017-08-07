@@ -1,0 +1,24 @@
+{
+  "name": "object-modeler",
+  "version": "0.0.0",
+  "description": "Create a model from an array of (preferably) similar JS objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbisaga/object-modeler.git"
+  },
+  "keywords": [
+    "object",
+    "model",
+    "modeler"
+  ],
+  "author": "John Bisaga <johnbisaga@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbisaga/object-modeler/issues"
+  },
+  "homepage": "https://github.com/jbisaga/object-modeler#readme"
+}
