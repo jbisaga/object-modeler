@@ -2,7 +2,7 @@
   "name": "object-modeler",
   "version": "0.0.0",
   "description": "Create a model from an array of (preferably) similar JS objects.",
-  "main": "index.js",
+  "main": "modeler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
