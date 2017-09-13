@@ -54,9 +54,7 @@ var collection = [
     }
 ];
 ```
-By examining the two objects, we can see that
-1. The two objects share most properties, but not all. Some of Sharon's properties are missing from William's object, and vice versa.
-2. William is kind of a negative person.
+By examining the two objects, we can see that the two objects share most properties, but not all. Some of Sharon's properties are missing from William's object, and vice versa. Also, William is kind of a negative person.
 
 In order to work with these objects as a collection, we'll use this module to see what an object in this collection _could_ have as properties.
 
@@ -70,45 +68,45 @@ The value of **personModel** will be:
 ```
 {
     firstName: {
-        type: "string"
+        _type: "string"
     },
     middleName: {
-        type: "string"
+        _type: "string"
     },
     lastName: {
-        type: "string"
+        _type: "string"
     },
     age: {
-        type: "number"
+        _type: "number"
     },
     created: {
-        type: "string"   
+        _type: "string"   
     },
     spouse: {
-        type: "object",
-        properties: {
-            "firstName": {
+        _type: "object",
+        _properties: {
+            firstName: {
                 type: "string"
             },
-            "lastName: {
+            lastName: {
                 type: "string"
             }
         }
     }
     likes: {
-        type: "array",
-        element: {
+        _type: "array",
+        _element: {
             type: "string"
         },
     },
     dislikes: {
-        type: "array",
-        element: {
-            type: "string"
+        _type: "array",
+        _element: {
+            _type: "string"
         },
     },
     admin: {
-        type: "boolean"
+        _type: "boolean"
     }
 }
 ```
